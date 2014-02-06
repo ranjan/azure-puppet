@@ -1,4 +1,4 @@
-Windows Azure Cloud Provisioner
+Windows Azure Cloud Provisioner [![Build Status](https://travis-ci.org/ranjan/azure-puppet.png?branch=dev)](https://travis-ci.org/ranjan/azure-puppet)
 ========================
 
 Puppet Module to launch and manage Microsoft Windows Azure Services like Virtual Machines, Virtual Network and SQL Database services.

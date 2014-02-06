@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'azure', '0.6.0'
+gem 'rspec', '>=2.0.0'
+gem 'highline'
+gem 'mocha'
+gem 'tilt'
+gem 'net-ssh'
+gem 'net-scp'
+gem 'winrm'
+gem 'puppet'
