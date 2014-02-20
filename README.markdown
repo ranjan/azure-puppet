@@ -31,7 +31,7 @@ Getting Started
 Required Gems
 =============
 
- * azure (0.6.0)
+ * azure (0.6.1)
  * net-ssh (>= 2.1.4)
  * net-scp (>= 1.0.4)
  * winrm (>= 1.1.3)
@@ -119,6 +119,11 @@ Other avaliable actions are
 
 	* To extract pem from custom certificate, export the pfx, follow the above steps to convert to pem and pass that pem file to management cert parameter.
 	
+# Reporting Issues
+
+  Please report any problems you have with the Windows Azure Cloud Provisioner module in issue tracker at
+  
+  * [Windows Azure Cloud Provisioner Issues](https://github.com/MSOpenTech/azure-puppet/issues)
 
 Puppet Installation
 ===================

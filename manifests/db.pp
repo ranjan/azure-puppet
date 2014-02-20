@@ -32,14 +32,15 @@ class windowsazure::db (
 
     if !defined( Package['azure'] ) {
       package { 'azure':
-        ensure   => '0.6.0',
+        ensure   => '0.6.1',
         provider => 'gem',
       }
     }
 
-    exec {"SQL database ${title}":
+    exec {"SQL database":
       command    => $puppet_command,
       logoutput  => true
     }
 
+    Package['azure'] -> Exec['SQL database']
 }

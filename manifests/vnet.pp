@@ -12,7 +12,7 @@ class windowsazure::vnet (
 
     if !defined( Package['azure'] ) {
       package { 'azure':
-        ensure   => '0.6.0',
+        ensure   => '0.6.1',
         provider => 'gem',
       }
     }
@@ -49,4 +49,6 @@ class windowsazure::vnet (
       command    => $puppet_command,
       logoutput  => true
     }
+
+    Package['azure'] -> Exec['Creating virtual network']
 }
